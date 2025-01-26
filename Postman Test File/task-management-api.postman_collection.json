@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "b92e63c1-180a-4c59-b84c-1ce6392ddd02",
+		"name": "task-management-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38161430"
+	},
+	"item": [
+		{
+			"name": "TaskManipulation",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Clean the House\",\r\n    \"description\": \"Wash the dishes, wipe down floor, and organize the rooms.\",\r\n    \"status\": \"completed\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/tasks/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"tasks",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
